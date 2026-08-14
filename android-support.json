@@ -1,0 +1,12 @@
+{
+  "_comment": "Publish this file to the ROOT of the wubrg-tracker-pc repo's main branch. The app fetches it from raw.githubusercontent.com — see src/lib/storeVersion.js. Editing it takes effect within 6 hours on every device; no OTA or store release needed.",
+  "_fields": {
+    "minSupportedVersion": "Native versions BELOW this show the non-dismissible 'no longer supported' banner. Set it to the new native version ONLY once that version is live on Google Play — before then you would be telling users to install something that isn't there yet.",
+    "latestVersion": "Newest native version on the store. Shows a dismissible 'version X is available' nudge to anyone below it but at or above minSupportedVersion.",
+    "message": "Optional. Overrides the default banner copy for both states. Omit to use the built-in wording.",
+    "playStoreUrl": "Informational only — the app builds its own URL from the package name."
+  },
+  "minSupportedVersion": "1.2.0",
+  "latestVersion": "1.2.0",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mortician10101.wubrgtracker"
+}
